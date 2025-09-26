@@ -10,7 +10,10 @@
     <?php
     $greeting = "Hello";
 
-    echo $greeting . " " . "theName!";
+    //echo $greeting . " " . "theName!";
+    
+    //this is called refactoring
+    echo "$greeting Name!";
     ?>
   </h1>
   </body>
