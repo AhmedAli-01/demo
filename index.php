@@ -30,7 +30,7 @@
   ?>
 
   <h1>
-    <?php echo $message ?>
+    <?= $message ?>
   </h1>
 </body>
 
