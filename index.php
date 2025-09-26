@@ -6,23 +6,10 @@
     <title>Demo</title>
   </head>
   <body>
-    <h1>
-      <?php
-       echo "Hello, World!";
-       echo "Playing around echo";
-      ?>
-
-    </h1>
-    <p>
-      <?php
-      echo "How do I add line break betwen echo statements?";
-      ?>
-    </p>
-    <br>
-    <p>
-      <?php
-          echo "This is another pragrphp using echo to display.";
-      ?>
-    </p>
+  <h1>
+    <?php
+    echo "Hello, ". "Name!";
+    ?>
+  </h1>
   </body>
 </html>
