@@ -9,21 +9,32 @@
 </head>
 
 <body>
-  <h1>Recommended Books </h1>
+  <h1> Books </h1>
   <?php
   $books = [
-    "Get Rich or Die Trying",
-    "Rich Dad Poor Dad",
-    "Just Another Day"
+    [
+      'name' => 'Who killed Marley',
+      'genra' => 'Fiction',
+      'purchaseURL' => 'https://example.com'
+    ],
+    [
+      'name' => 'Change your life forever',
+      'genra' => 'self confidenc',
+      'purchaseURL' => 'https://example.com'
+    ],
+    [
+      'name' => 'How to make friends',
+      'genra' => 'Social attractions',
+      'purchaseURL' => 'https://example.com'
+    ]
   ];
-  ?>
 
+  ?>
   <ul>
     <?php foreach ($books as $book) : ?>
-      <li><?= $book; ?></li>
+      <li><?= "Name of the book is: " . $book['name']; ?></li>
     <?php endforeach; ?>
   </ul>
-
 </body>
 
 </html>
